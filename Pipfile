@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pysimplegui = "*"
+os = "*"
+sys = "*"
+
+
+[dev-packages]
+psgdemos = "*"
+jupyter = "*"
+jupyter-core = "*"
+jupyterlab = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.6"
